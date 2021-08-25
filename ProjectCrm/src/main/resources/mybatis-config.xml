@@ -12,13 +12,13 @@
     <!--设置别名-->
     <typeAliases>
         <!--name:实体类所在的别名-->
-        <package name="实体类的包名"/>
+        <package name="com.bjpowernode.crm.settings.domain"/>
     </typeAliases>
     <!-- sql mapper(sql映射文件)的位置-->
     <mappers>
         <!--一个mapper标签指定一个文件的位置。
            从类路径开始的路径信息。  target/clasess(类路径)
         -->
-        <package name="mapper所在文件的包名"/>
+        <package name="com.bjpowernode.crm.settings.dao"/>
     </mappers>
 </configuration>
